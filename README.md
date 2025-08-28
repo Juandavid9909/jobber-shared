@@ -2,7 +2,7 @@
 > No olvidar el token para poder instalar paquetes privados.
 
 > [!IMPORTANT]
-> El token debe estar en el archivo `.npmrc` en la raíz del proyecto.
+> El token debe estar en el archivo `.npmrc` en la raíz del proyecto. Y también para agregar la variable de entorno en Windows podemos ejecutar el comando `setx <nombre-variable> <valor variable>`.
 
 > [!TIP]
 > Para poder instalar paquetes privados, debe crear un token de acceso personal (secret) en el repositorio de GitHub.

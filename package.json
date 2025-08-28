@@ -21,7 +21,7 @@
   "author": "Juan David Varela R",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Juandavid9909/microservices-jobber-shared.git"
+    "url": "git+https://github.com/Juandavid9909/jobber-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -34,7 +34,10 @@
   },
   "types": "./src/index.d.ts",
   "dependencies": {
+    "@elastic/elasticsearch": "^9.1.1",
+    "cloudinary": "^2.7.0",
     "express": "^5.1.0",
+    "mongoose": "^8.18.0",
     "typescript": "^5.9.2"
   },
   "devDependencies": {
