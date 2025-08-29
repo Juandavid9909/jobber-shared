@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "description": "Helpers library for Jobber app",
   "engines": {
@@ -38,6 +38,7 @@
     "cloudinary": "^2.7.0",
     "express": "^5.1.0",
     "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.18.0",
     "typescript": "^5.9.2"
   },
