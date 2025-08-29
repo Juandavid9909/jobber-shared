@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "description": "Helpers library for Jobber app",
   "engines": {
@@ -26,6 +26,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "files": [
+    "build",
+    "src"
+  ],
   "exports": {
     ".": {
       "import": "./src/index.js",
